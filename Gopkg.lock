@@ -61,6 +61,12 @@
   revision = "0b12d6b5"
 
 [[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "7c87d13f8e835d2fb3a70a2912c811ed0c1d241b"
+
+[[projects]]
   name = "gopkg.in/alecthomas/kingpin.v2"
   packages = ["."]
   revision = "947dcec5ba9c011838740e680966fd7087a71d0d"
@@ -69,6 +75,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "94fd9889b0e8caaf5f161d48ecc26fbaa8802d9ee82facdb302fed0ec4addfb1"
+  inputs-digest = "174280d8eb9415c454866010b3e02deae2863a02a7559ed7ed838c2473410545"
   solver-name = "gps-cdcl"
   solver-version = 1
